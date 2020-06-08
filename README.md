@@ -1,4 +1,4 @@
-# lib-ui-test
+# pirca-ui
 
 ## Project setup
 ```

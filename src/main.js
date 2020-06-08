@@ -1,12 +1,9 @@
-// import Vue from 'vue'
-// import App from './App.vue'
+// export { default as BaseButton } from "./components/BaseButton/BaseButton.vue"
+// export { default as BaseInput } from "./components/BaseInput/BaseInput.vue"
+import BaseButton from "./components/BaseButton/BaseButton.vue"
+import BaseInput from "./components/BaseInput/BaseInput.vue"
 
-// Vue.config.productionTip = false
-
-// new Vue({
-//   render: h => h(App),
-// }).$mount('#app')
-
-import BaseButton from './components/BaseButton.vue'
-
-export default BaseButton
+export {
+  BaseButton,
+  BaseInput
+}
