@@ -10,6 +10,20 @@ export default [
     },
     plugins: [
       vue()
-    ]
-  }
+    ],
+    external: [
+      'vue',
+    ],
+  },
+  // Browser build.
+  // {
+  //   input: 'src/wrapper.js',
+  //   output: {
+  //     format: 'iife',
+  //     file: 'dist/library.js'
+  //   },
+  //   plugins: [
+  //     vue()
+  //   ]
+  // }
 ]

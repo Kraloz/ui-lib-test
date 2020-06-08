@@ -5,8 +5,7 @@
   "main": "build/pircaUi.esm.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "build-lib": "rollup --config",
+    "build": "rollup --config",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
